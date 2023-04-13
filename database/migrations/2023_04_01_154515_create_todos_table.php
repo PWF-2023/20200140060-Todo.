@@ -15,10 +15,9 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->string('title');
-            $table->boolean('is_cpmlete')->default(0);
+            $table->boolean('is_complete')->default(0);
             $table->timestamps();
         });
-        
     }
 
     /**

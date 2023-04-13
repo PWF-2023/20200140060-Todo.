@@ -4,9 +4,7 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
- */
+
 class TodoFactory extends Factory
 {
     /**
@@ -18,7 +16,7 @@ class TodoFactory extends Factory
     {
         return [
             'user_id' => rand(1, 100),
-            'tittle' => ucwords(fake()->sentence()),
+            'title' => ucwords(fake()->sentence()),
             'is_complete' => rand(0, 1)
         ];
     }
