@@ -1,8 +1,8 @@
 #tugas 6
 
-# 1. todo Completed
+# 1. todo Completed.
 ![Alt text](screenshoot/tugas6/Screenshot%202023-05-12%20103615.png)
-# 2. todo unclomplete
+# 2. todo unclomplete.
 ![Alt text](screenshoot/tugas6/Screenshot%202023-05-12%20103756.png)
 # 3. todo edited
 ![Alt text](screenshoot/tugas6/Screenshot%202023-05-12%20103913.png)
